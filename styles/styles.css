@@ -49,6 +49,7 @@
 .btn {
     padding: 12px 20px;
     border: none;
+    color: red;
 }
 
 .bg-primary {
@@ -65,6 +66,8 @@
     background-size: cover;
     color: white;
     display: flex;
+    align-items: center;
+    padding: 20px;
 }
 
 .icon {
@@ -79,4 +82,41 @@
     background-color: white;
     color: black;
     border-radius: 5px;
+}
+
+.service-description {
+    width: 50%;
+}
+
+.first-two-box {
+    display: flex;
+    gap: 5px;
+}
+.last-two-box {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.author-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.author-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.author-profile {
+    display: flex;
+    align-items: center;
+    gap: 30x;
+    border-right: 2px solid red;
+}
+
+.author-name {
+    width: 225px;
 }
