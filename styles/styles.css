@@ -120,3 +120,47 @@
 .author-name {
     width: 225px;
 }
+
+.phone-call {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.appointment-container {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+    padding: 25px;
+    background-color: #ff0000;
+    border-radius: 10px;
+    margin-top: -50px;
+    align-items: center;
+    gap: 15px;
+}
+
+.blog-title {
+    color: black;
+    text-align: center;
+    margin: 50px;
+}
+
+.card {
+    width: 255px;
+    height: 375px;
+    box-shadow: 4px 8px 4px grey;
+    border-radius: 5 px;
+    padding: 15px;
+}
+
+.blog-image {
+    width: 100%;
+    border-radius:5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 5px.;
+}
